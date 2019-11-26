@@ -25,10 +25,7 @@ public class Dadi extends AppCompatActivity {
         b = findViewById(R.id.dadi22);
         a.setText(dadi1);
         b.setText(dadi2);
-        /*a = findViewById(R.id.dadi11);
-        b = findViewById(R.id.dadi22);
-        a.setText(dadi1);
-        b.setText(dadi2);*/
+
 
     }
 }
