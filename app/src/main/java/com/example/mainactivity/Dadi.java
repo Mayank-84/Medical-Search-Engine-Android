@@ -12,17 +12,16 @@ public class Dadi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //added here to check
+
+        a = findViewById(R.id.dadi11);
+        b = findViewById(R.id.dadi22);
         setContentView(R.layout.activity_dadi);
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
 
         String dadi1=extras.getString("dadi1");
-        String xyzas;
         String dadi2=extras.getString("dadi2");
-        a = findViewById(R.id.dadi11);
 
-        b = findViewById(R.id.dadi22);
         a.setText(dadi1);
         b.setText(dadi2);
 
