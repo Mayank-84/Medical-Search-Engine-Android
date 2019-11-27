@@ -17,7 +17,7 @@ public class Find_Disease extends AppCompatActivity {
     private ImageView mImageView;
     private Button mYesButton, mNoButton;
     private int mQuestionNumber =0;
-    private int tempQuestionNumber=0;
+    private int tempQuestionNumber=10;
     public static String[] results = new String[12];
 
 
